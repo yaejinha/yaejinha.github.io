@@ -22,12 +22,16 @@ repository > clone or download > download zip 으로 복사 OR git bash 로 git 
 # 파일 커밋 하기  #
 파일을 수정했다면 커밋 과정을 통해서 수정된 파일을 반영해야한다. 
 
-1. git add > 수정한 파일을 stage 에 올리기 위해 사용한다. 간단하게 git add --all 로 전체 올려버린다. ignore 할게 없어서 그냥 그렇게 했다. git add 파일명 으로  해도 된다. 
-2. git commit > 커밋을 통해 변경사항을 내 로컬에 저장한다. 아직 서버 repository 에는 반영된게 아니다. git commit -m "커밋메세지" 
-(git commit -am "커밋메세지" 로 1의 과정 생략 가능하다. )
-3. git push > 서버 repository 에 반영하기 위한 과정이다. git push origin master (git push -u origin master -u는 서버 레파지토리  업뎃 후 push >> 블로그는 그냥 혼자 쓰니까 굳이 -u 하지 않았다.)
+1. git add > 수정한 파일을 stage 에 올리기 위해 사용한다. 간단하게 **git add --all** 로 전체 올려버린다.
+   ignore 할게 없어서 그냥 그렇게 했다. git add 파일명 으로  해도 된다. 
+2. git commit > 커밋을 통해 변경사항을 내 로컬에 저장한다. 아직 서버 repository 에는 반영된게 아니다.
+   **git commit -m "커밋메세지"** (git commit -am "커밋메세지" 로 1의 과정 생략 가능하다. )
+3. git push > 서버 repository 에 반영하기 위한 과정이다. **git push origin master **
+   (git push -u origin master -u는 서버 레파지토리  업뎃 후 push >> 블로그는 그냥 혼자 쓰니까 굳이 -u 하지 않았다.)
 
 # 반영된 모습 확인하기  #
 아주 뿌듯한 과정이다 :) 히히 
 
-왕초보인 나에게는 이렇게 간단한 과정도 참 험난했다. 그냥 있는 에디터 사용할걸 왜 굳이 깃헙블로그 만들고 있나 현타도 왔지만 그래도 이것또한 공부라고 생각한다 !! 앞으로 열심히 정리해야지!
+왕초보인 나에게는 이렇게 간단한 과정도 참 험난했다. 
+그냥 있는 에디터 사용할걸 왜 굳이 깃헙블로그 만들고 있나 현타도 왔지만 그래도 이것또한 공부라고 생각한다 !!
+앞으로 열심히 정리해야지!
