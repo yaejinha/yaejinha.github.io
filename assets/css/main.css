@@ -5,52 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
- */
- body {
-  font-family: 'Roboto', sans-serif;
-}
-
-/* 블로그 들어갔을때 글 제목 폰트 변경*/
-div {
-  article{
-      h2{
-          a{
-            font-family: 'East Sea Dokdo', cursive;
-          }
-      }
-  }
-}
-/* 글 내의 타이틀 변경*/
-article{
-  div{
-      header{
-          h1{
-            font-family: 'East Sea Dokdo', cursive;
-          }
-      }
-  }
-}
-article{
-  div{
-      section{
-          h2{
-            font-family: 'East Sea Dokdo', cursive;
-          }
-      }
-  }
-}
-div{
-  article{
-      div{
-          a{
-            font-family: 'East Sea Dokdo', cursive;
-          }
-      }
-  }
-}
-
-
-
+*/
 
 
 
@@ -138,7 +93,7 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'East Sea Dokdo', cursive;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -825,7 +780,7 @@ html {
 }
 
 body {
- font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #515151;
   background-color: #fbfbfb;
   margin: 0;
@@ -1214,7 +1169,7 @@ footer .copyright {
 }
 
 .post .post-content .post-title a {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'East Sea Dokdo', cursive;
   text-decoration: none;
   color: #263959;
 }
