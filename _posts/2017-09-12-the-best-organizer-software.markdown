@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 그리스인 조르바
-date: 2017-09-12 00:00:00 +0300
+date:  "`r format(Sys.time(), '%d %B, %Y')`"
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: wave.jpg # Add image post (optional)
 tags: [독서] # add tag
