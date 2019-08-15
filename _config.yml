@@ -2,7 +2,7 @@ title: 웃자 웃어
 description: > # this means to ignore newlines until "baseurl:"
   나 파워블로거 될거야. 광고도 넣을거야.
 permalink: ':title/'
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl:  # the subpath of your site, e.g. /blog
 url: "https://yaejinha.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
