@@ -11,26 +11,20 @@ layout: default
       <div class="author-name">{{site.author}}</div>
       <p class="about-author">{{site.about-author}}</p>
     </div>
-  </header> <!-- End Header -->
-  <body>
-        <div class="wrapper">
-                        <ul>
+    <ul>
     
-                                {% assign pages_list = site.pages %}
-                                {% for node in pages_list %}
-                                  {% if node.title != null %}
-                                    {% if node.layout == "category" %}
-                                      <li><a class="category-link {% if page.url == node.url %} active{% endif %}"
-                                      href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
-                                    {% endif %}
-                                  {% endif %}
-                                {% endfor %}
-                                
-                            </ul>
-                </div>
-                
-                {% include analytics.html %}
- </body>
+    {% assign pages_list = site.pages %}
+    {% for node in pages_list %}
+    {% if node.title != null %}
+    {% if node.layout == "category" %}
+    <li><a class="category-link {% if page.url == node.url %} active{% endif %}"
+        href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+        
+    </ul>
+  </header> <!-- End Header -->
   <footer>
     <section class="contact">
       <h3 class="contact-title">Contact me</h3>
@@ -52,5 +46,21 @@ layout: default
   </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
 <div class="content-box clearfix">
-  {{ content }}
+    <div class="wrapper">
+                                <ul>
+            
+                                        {% assign pages_list = site.pages %}
+                                        {% for node in pages_list %}
+                                          {% if node.title != null %}
+                                            {% if node.layout == "category" %}
+                                              <li><a class="category-link {% if page.url == node.url %} active{% endif %}"
+                                              href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
+                                            {% endif %}
+                                          {% endif %}
+                                        {% endfor %}
+                                        
+                                    </ul>
+     </div>
+                        
+                        {% include analytics.html %}
 </div>
