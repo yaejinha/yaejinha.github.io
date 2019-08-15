@@ -2,7 +2,7 @@
 layout: post
 title: github 블로그 수정 사항 변경 방법 
 date:  2019-08-10 12:36:00 +0800
-img: wave.jpg # Add image post (optional)
+img: git.jpg # Add image post (optional)
 tags: [공부] # add tag
 ---
 
