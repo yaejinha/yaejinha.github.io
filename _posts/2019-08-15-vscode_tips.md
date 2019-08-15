@@ -1,10 +1,11 @@
 ---
 layout: post
-title: VS Code 팁들 
+title: VS Code 팁들
 date:  2019-08-15 12:36:00 +0800
 img: code.jpg # Add image post (optional)
-tags: [팁] [VS Code] # add tag
+tags: [VS Code] # add tag
 ---
+
 
 사실 무료고, 설치가 간단해서 VS Code 를 사용중이긴 한데 여러 기능을 사용하진 않았다. 
 
