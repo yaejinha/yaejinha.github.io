@@ -7,18 +7,18 @@ tags: [공부] # add tag
 ---
 
 # Spring Email Sender
-스프링에서 제공하는`MailSender` 로 쉽게 메일 전송하는 방법
+스프링에서 제공하는 MailSender 로 쉽게 메일 전송하는 방법
 [https://www.baeldung.com/spring-email](https://www.baeldung.com/spring-email)
 
 
 **1) 필요한 library 받기** 
 pom.xml 에 dependency 설정으로 받아도 되고, jar 파일 다운 받아서 톰캣 경로/lib 에 넣어줘도 된다. 
 
-    `<dependency>`
-    `<groupId>org.springframework</groupId>`
-    `<artifactId>spring-context-support</artifactId>`
-    `<version>5.0.1.RELEASE</version>`
-    `</dependency>`
+    <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context-support</artifactId>
+    <version>5.0.1.RELEASE</version>
+    </dependency>
     
    jar 파일 받는 경로 -> [클릭](https://search.maven.org/classic/#search%7Cga%7C1%7Cspring-context-support) 
 
@@ -33,19 +33,19 @@ lib 내 인터페이스 정리
 내가 해본 예제는 간단히 텍스트만 보내기에 JavaMailSender + SimpleMailMessage  조합이다. 
 
 **2. JavaMailSenderImpl 의존 주입위해 spring context 파일 수정**
-  `<bean id="mailSender"class="org.springframework.mail.javamail.JavaMailSenderImpl"/>`
+>  <bean id="mailSender"class="org.springframework.mail.javamail.JavaMailSenderImpl"/>
   
 **3. MailSender 속성 세팅**
 
->     `mailSender.setHost(``"smtp.gmail.com"``);`
->     `mailSender.setPort(``587``);`
->     `mailSender.setUsername(``"my.gmail@gmail.com"``);`
->     `mailSender.setPassword(``"password"``);`
->     `Properties props = mailSender.getJavaMailProperties();`
->     `props.put(``"mail.transport.protocol"``,` `"smtp"``);`
->     `props.put(``"mail.smtp.auth"``,` `"true"``);`
->     `props.put(``"mail.smtp.starttls.enable"``,` `"true"``);`
->     `props.put(``"mail.debug"``,` `"true"``);`
+>     mailSender.setHost("smtp.gmail.com");
+>     mailSender.setPort(587);
+>     mailSender.setUsername("my.gmail@gmail.com");
+>     mailSender.setPassword("password");
+>     Properties props = mailSender.getJavaMailProperties();
+>     props.put("mail.transport.protocol", "smtp");
+>     props.put("mail.smtp.auth", "true");
+>     props.put("mail.smtp.starttls.enable", "true");
+>     props.put("mail.debug", "true");
 속성 세팅을 위해 각 속성이 의미하는 바를 알아야한다.  
 걍 뚝딱 세팅하니까 메일이 안가네...(당연한 말)  
  - [ ] setHost :  메일을 전송해주는 메일 서버
