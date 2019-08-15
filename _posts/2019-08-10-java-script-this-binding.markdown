@@ -3,6 +3,7 @@ layout: post
 title: Javascript this 바인딩 1 [객체 내부 메서드 호출과 함수 호출]
 date:  2019-08-10 12:36:00 +0800
 img: javascript.jpg # Add image post (optional)
+categories: [study]
 tags: [공부] # add tag
 ---
 

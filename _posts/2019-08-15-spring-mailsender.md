@@ -3,6 +3,7 @@ layout: post
 title: Spring Email Sender
 date:  2019-08-15 12:36:00 +0800
 img: email.jpg # Add image post (optional)
+categories: [study]
 tags: [공부] # add tag
 ---
 
