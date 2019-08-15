@@ -61,7 +61,9 @@ lib 내 인터페이스 정리
    mail.smtp.starttls.enable > TLS 사용 여부
 
    mail.smtp.auth > 인증 사용 여부 
-  mail.debug  > 메일 전송 내용 디버깅해 콘솔에 출력 
+
+   mail.debug  > 메일 전송 내용 디버깅해 콘솔에 출력 
+
  
  **4. 메일 내용 세팅**
 > 
@@ -75,6 +77,8 @@ lib 내 인터페이스 정리
 >      message.setText(text);
 >      emailSender.send(message);
 >     }
+
+
 솔직히 너무 간단해서 할 말이 없다.. ㅠㅠ 
 닉값 한다 진짜 simplemailmessage.. 진짜 simple.... 
 파일 같은 걸 같이 보내고 싶을  땐 attachement 로 보내면 되는데 이것 또한 한 simple 하니 baeldung 참고해서 보내면 된다. 
