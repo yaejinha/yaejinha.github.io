@@ -59,6 +59,7 @@ lib 내 인터페이스 정리
    (서버에 올려서 같은 내부 서버 내에서 메일 전송할때는 인증 정보 쓸 필요 없다. ) 
  - [ ] getJavaMailProperties 세팅 :
    mail.smtp.starttls.enable > TLS 사용 여부
+
    mail.smtp.auth > 인증 사용 여부 
   mail.debug  > 메일 전송 내용 디버깅해 콘솔에 출력 
  
