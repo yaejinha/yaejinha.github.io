@@ -28,7 +28,7 @@ tags: [VS Code, 미세먼지팁] # add tag
    나는 여태까지 그냥 git bash 로 커맨드 창에서 해결해왔는데, vs code 내의 source control 사용해서 하니까 훨씬 간단하고 직관적이다. 
    remote 설정한 로컬의 레파지토리 내에서 블로그 글 수정하고 사이드바를 보면 source control 에 변경사항 기록된 것 확인할 수 있다. 
 
-    ![Source Control 예시]({{site.baseurl}}/assets/img/source_control1.jpg)
+    ![Source Control](http://yaejinha.github.io//assets/img/source_control1.jpg)
 
 
 
