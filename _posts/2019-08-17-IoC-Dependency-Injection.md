@@ -1,7 +1,7 @@
 ---
 layout: post
 title: IoC 와 DI
-date:  2019-08-15 21:36:00 +0800
+date:  2019-08-17 21:36:00 +0800
 img: cliff.jpg # Add image post (optional)
 categories: [spring]
 tags: [공부] # add tag
