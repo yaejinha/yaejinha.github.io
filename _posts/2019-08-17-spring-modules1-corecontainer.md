@@ -31,7 +31,7 @@ Core, Beans, Context,  Expression Language 모듈이 있다.
 JDNI 에 대해서는 [이 포스트]() 참고 !!  
 즉 다양한 리소스들을 가져다 쓸 때 참조하기 위한 모듈이라는 것이다. beans 모듈 특성들을  가지고 있지만 리소스 로딩 이나 EJB, JMX 같은 Java EE 의 기능도 가지고 있다. ApplicationContext 인터페이스 를 사용한다.     
 
-** **BeanFactory 와 ApplicationContext 차이**
+** **BeanFactory 와 ApplicationContext 차이**  
 기본적으로 ApplicationContext 는 BeanFactory 인터페이스 의 기능을 모두 가지고 있고 플러스 알파 기능이 있는 것이다.  주된 차이점은 다음과 같다.  
 >  BeanFactory 는 getBean 메소드 호출시에 bean을 초기화하는데, applicationfactory 는 스프링 컨테이너 구동시에 초기화한다.  
 >  ApplicationContext 는 어노테이션 기반 설정 처리 가능하다. (@Autowired 같은거)  
@@ -42,6 +42,4 @@ JDNI 에 대해서는 [이 포스트]() 참고 !!
 
 와 아직 모듈 하나 했네 ^^ 어렵다 어려버ㅠㅇ ㅠ
 
-2. Data Access/Integration  
-이름에서 알 수 있듯이 데이터 관련된 처리를 해주는 모듈이다.  
-JDBC나 트랜잭션 같은 DB 연결할때 자주 봤던 친구가 있는가하면,  ORM, OXM, JMC ??  얘네는 도대체 누구지..? 누구세요;;;;  
+글이 길어져서 모듈별로 나눠서 올려야겠다 !!  
