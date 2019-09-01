@@ -2,7 +2,7 @@
 layout: post
 title: 스프링을 구성하는 모듈 3- web module
 date:  2019-08-18 21:36:00 +0800
-img: two.jpg # Add image post (optional)
+img: three.jpg # Add image post (optional)
 categories: [spring]
 tags: [공부] # add tag
 ---
@@ -76,5 +76,5 @@ Spring 에서는 DispatcherServlet  이 요청이 들어오면 해당 servlet �
 ===================================================================================================================
 
 그 이외에도 portlet 같은게 있는데 찾아보니까 자주쓰는 웹 컴포넌트들을 정의해놓고 재사용하는 거 같은데  
-써본적이 없어서 잘 와닿지가 않아서 추후에 추가하겠다.  
+써본적이 없어서 잘 와닿지가 않음.  몰라  
 
