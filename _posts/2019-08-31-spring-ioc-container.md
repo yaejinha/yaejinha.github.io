@@ -77,6 +77,8 @@ autowire 속성을 통해서  applicationcontext 가 컨텐츠 보고 있다가 
 인생 후르락끼 뚝딱뚜까딱~~~ 하던 내 모습 반성하게 되네요....   
 
 
+**bean scope 에 관한 아주 잘 정리된 글은 여기[https://gmlwjd9405.github.io/2018/11/10/spring-beans.html] 에서!!**
+
 
 
 
