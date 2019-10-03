@@ -4,6 +4,9 @@ title: github 블로그 수정 사항 변경 방법
 date:  2019-08-10 12:36:00 +0800
 img: git.jpg # Add image post (optional)
 tags: [미세먼지팁] # add tag
+sitemap :
+changefreq : daily
+priority : 1.0
 ---
 
 git 다루는게 어색하기에 아주 간단한 글 수정, Config 변경에도 애를 먹었다. 

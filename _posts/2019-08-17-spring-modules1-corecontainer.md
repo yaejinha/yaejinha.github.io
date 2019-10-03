@@ -5,6 +5,9 @@ date:  2019-08-17 21:36:00 +0800
 img: one.jpg # Add image post (optional)
 categories: [spring]
 tags: [공부] # add tag
+sitemap :
+changefreq : daily
+priority : 1.0
 ---
 # 스프링 프레임워크
 POJO 를 사용하여 어플리케이션을 만들고,  엔터프라이즈 서비스를 비침투적으로 적용할 수 있도록 해주는 자바 플랫폼이다.

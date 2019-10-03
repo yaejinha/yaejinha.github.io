@@ -5,6 +5,9 @@ date:  2019-08-17 21:36:00 +0800
 img: cliff.jpg # Add image post (optional)
 categories: [spring]
 tags: [공부] # add tag
+sitemap :
+changefreq : daily
+priority : 1.0
 ---
 
 사진으로 절벽에 매달린 나의 심정을 나타내봤다 ㅠㅠ...  

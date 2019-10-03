@@ -5,6 +5,9 @@ date:  2019-08-15 21:36:00 +0800
 img: text.jpg # Add image post (optional)
 categories: [spring]
 tags: [공부] # add tag
+sitemap :
+changefreq : daily
+priority : 1.0
 ---
 
 스프링 문서를 읽다가 IoC, DI 개념에 대한 [추천 기사](http://martinfowler.com/articles/injection.html) 를 읽었다.   

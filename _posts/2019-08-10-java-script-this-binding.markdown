@@ -5,6 +5,9 @@ date:  2019-08-10 12:36:00 +0800
 img: javascript.jpg # Add image post (optional)
 categories: [study]
 tags: [공부] # add tag
+sitemap :
+changefreq : daily
+priority : 1.0
 ---
 
  함수 호출 방식에 따라서  this 인자는 다른 객체를 참조한다. 
