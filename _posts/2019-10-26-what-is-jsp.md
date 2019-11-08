@@ -5,6 +5,9 @@ date:  2019-10-26 16:36:00 +0800
 img: root.jpg # Add image post (optional)
 categories: [study]
 tags: [공부] # add tag
+sitemap :
+changefreq : daily
+priority : 1.0
 ---
 
 
