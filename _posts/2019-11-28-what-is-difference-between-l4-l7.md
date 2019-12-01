@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ㅣ4 와 L7 차이점
+title: L4 와 L7 차이점
 date:  2019-12-01 14:24:00 +0900
 img: pompom.jpg # Add image post (optional)
 categories: [study]
