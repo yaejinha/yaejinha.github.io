@@ -2,7 +2,7 @@
 layout: post
 title: L4 와 L7 차이점
 date:  2019-12-01 14:24:00 +0900
-img: pompom.jpg # Add image post (optional)
+img: network.jpg # Add image post (optional)
 categories: [study]
 tags: [공부, 네트워크, l4,l7] # add tag
 sitemap :
