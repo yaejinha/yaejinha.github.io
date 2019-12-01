@@ -1161,7 +1161,7 @@ footer .copyright {
   font-weight: 400;
 }
 
-.post-title, a, .page-title, h1, .about-author{
+.post-title, a, .page-title, h1, .about-author,h2{
   font-family: 'East Sea Dokdo', cursive;
   text-decoration: none;
   color: #263959;
