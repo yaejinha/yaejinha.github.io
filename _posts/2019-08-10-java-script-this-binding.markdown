@@ -50,22 +50,47 @@ JS 로 Exercism 문제를 풀고 있는데 이 개념을 정확히 안 잡고 �
 
 그래서 책에서는 this 값을 저장하는 that 변수를 따로 이용해서 거기에 접근하도록 하지만, bind 함수를 사용해서 해결 가능하다. 
 
+```
     var value = 100;
-    
     var myObject={
     	value=1,
     	func1: function(){
 	    		var that=this;  //that 변수에 this 저장함으로써 접근 가능
 	    		this.value+=1;
-		    	console. log (this.value) ;
+		    	console. log (this.value) ;  // 2
 		    	func2:  function(){
-			    	that.value+=1; 
+			    	that.value+=1; //3
 			    	console.log(that.value);
 		    	}
-		    	func2();
+		    	func2(); 
 	    	}
     };
-    myObject.func1();
+    myObject.func1(); 
     =======================================
-    102
+    2  
+    3
+```
+`` 호출 주체의 중요성을 느낄 수 있다. ``  
 
+누가 실행했냐에 따라서 this  의 주체가 달라진다.  
+단순히 매핑시켜놓은 것과는 무관하고 호출 시기가 중요하다.  
+
+그래서 언제 누가 호출해도 같은 방식이 되도록 bind하는 방식이 나왔다.  
+위의 예제를 bind 활용해서 바꾸면 다음과 같다.  
+
+```
+ var value = 100;
+    var myObject={
+    	value: 1,
+    	func1: function(){
+	    		this.value+=1;
+		    	console. log (this.value) ;  // 2
+		    	func2= function(){
+			    	this.value+=1; //3
+			    	console.log("func2   "+this.value);
+		    	}.bind(this)  // func1 의 this (myObject) 를 바인딩시켜 같은 value 가리키도록
+                func2();
+	    	}
+    };
+    myObject.func1(); 
+```
