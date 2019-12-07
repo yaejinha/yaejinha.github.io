@@ -83,11 +83,11 @@ lib 내 인터페이스 정리
 >     }
 
 
-솔직히 너무 간단해서 할 말이 없다.. ㅠㅠ 
+&nbsp;&nbsp;&nbsp;&nbsp;솔직히 너무 간단해서 할 말이 없다.. ㅠㅠ 
 닉값 한다 진짜 simplemailmessage.. 진짜 simple.... 
 파일 같은 걸 같이 보내고 싶을  땐 attachement 로 보내면 되는데 이것 또한 한 simple 하니 baeldung 참고해서 보내면 된다. 
 
-근데 attachement 말고  전자 서명같은 인라인 첨부가 필요할 때가 있다. 
+&nbsp;&nbsp;&nbsp;&nbsp;근데 attachement 말고  전자 서명같은 인라인 첨부가 필요할 때가 있다. 
 첨부 이미지긴한데 첨부파일 목록에 들어가지 않고 메일 본문에 나와야하는 경우. 
 이때는 MimeMessageHelper.addAttachment() 사용하여 인라인 첨부에 CID 부여하여 사용한다. 
 
