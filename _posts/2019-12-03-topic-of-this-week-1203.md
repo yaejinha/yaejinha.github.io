@@ -3,7 +3,7 @@ layout: post
 title: [19-12-03]이 주의 테크 고민거리- 스마트시티와 개인정보 침해
 date:  2019-12-03 14:24:00 +0900
 img: toronto.jpg # Add image post (optional)
-categories: [study]
+categories: [news]
 tags: [공부, 테크기사, 테크, tech, technology-of-the-week, 고민거리, 스마트시티, 개인정보침해] # add tag
 sitemap :
 changefreq : daily
