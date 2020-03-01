@@ -2,7 +2,7 @@
 layout: post
 title: MAC 에서 포트 죽이기 ! 
 date:  2020-02-29 19:00
-img: gorapaduck.jpeg # Add image post (optional)
+img: gorapaduck.png # Add image post (optional)
 categories: [기타]
 tags: [IT, MAC, MACBOOK, 맥북 , 포트, pid] # add tag
 sitemap :
