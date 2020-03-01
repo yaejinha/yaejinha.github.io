@@ -4,6 +4,7 @@ title: VS Code 팁들
 date:  2019-08-15 12:36:00 +0800
 img: code.jpg # Add image post (optional)
 tags: [VS Code, 미세먼지팁] # add tag
+categories: [기타]
 sitemap :
 changefreq : daily
 priority : 1.0

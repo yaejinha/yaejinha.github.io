@@ -4,6 +4,7 @@ title: github 블로그 수정 사항 변경 방법
 date:  2019-08-10 12:36:00 +0800
 img: git.jpg # Add image post (optional)
 tags: [미세먼지팁] # add tag
+categories: [기타]
 sitemap :
 changefreq : daily
 priority : 1.0
