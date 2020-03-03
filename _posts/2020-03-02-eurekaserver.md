@@ -10,6 +10,8 @@ changefreq : daily
 priority : 1.0
 ---
 
+풀소스는 [여기](https://github.com/yaejinha/msa-SelfStudy) 에서 확인할 수 있다. 
+
 이번 실습은 Eureka 설정이다.   
 Eureka를 간단히 말하자면 연결된 서버들의 생사 체크도 해서 레지스트리로 관리하고  서버가 죽었으면 서비스에서 제외하는 load balancing 역할을 하는 거다.   
 여기서 각 클라이언트들은 또 서버가 되서 다른 연결된 서버들을 클라이언트 삼을수도 있다. [링크](https://www.baeldung.com/spring-cloud-netflix-eureka)  
