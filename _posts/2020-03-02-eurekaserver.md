@@ -3,7 +3,7 @@ layout: post
 title: 실습 with spring boot  Netflix OSS 3- Eureka 
 date:  2020-03-01 20:23
 img: moomin.jpg # Add image post (optional)
-categories: [기타]
+categories: [msa]
 tags: [IT, Spring cloud, NetflixOSS, Eureka, Hystrix] # add tag
 sitemap :
 changefreq : daily

@@ -3,7 +3,7 @@ layout: post
 title: SSL offload 란..?
 date:  2020-03-01 20:23
 img: gorapaduck.png # Add image post (optional)
-categories: [기타]
+categories: [study]
 tags: [IT, Network, ssloffload] # add tag
 sitemap :
 changefreq : daily
