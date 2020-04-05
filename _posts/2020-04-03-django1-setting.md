@@ -3,7 +3,7 @@ layout: post
 title: 얼레벌레 django 따라하기 1 - 기본 세팅과 hello world
 date:  2020-04-03 17:00
 img: lukeknowsnothing.jpg # Add image post (optional)
-categories: [study]
+categories: [python]
 tags: [IT, 파이썬, python, django, web] # add tag
 sitemap :
 changefreq : daily
