@@ -70,11 +70,6 @@ if __name__ == '__main__':
 
 ``` 
 
-![테스트1](assets/img/2021-03-15-flask-blueprint/test1.png) 
-
-
-![테스트2](assets/img/2021-03-15-flask-blueprint/test2.png) 
-
 
 이런식으로 쉽게 경로를  부여할 수 있다.  
 초보자인 내 입장에서는 이게 더 쉬워보인다. (물론 내가 100퍼 이해한 거 같진 않지만 ㅎㅎ)  
